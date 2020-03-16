@@ -2,6 +2,7 @@
 using System.Threading;
 using DesignPatternsImplementation.Adapter.SimpleImplementation;
 using DesignPatternsImplementation.Memento;
+using DesignPatternsImplementation.Multithreading;
 using DesignPatternsImplementation.ProtoType;
 using DesignPatternsImplementation.Singleton;
 
@@ -16,6 +17,8 @@ namespace DesignPatternsImplementation
             RunSingleton();
             RunProtoType();
             RunMemento();
+
+            ThreadPooling.Run();
 
         }
 
